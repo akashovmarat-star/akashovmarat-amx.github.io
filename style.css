@@ -1,0 +1,37 @@
+/*
+Theme Name: AMX Dubai Luxury Real Estate Portal Theme
+Theme URI: https://amx.ae
+Author: AMX Dubai Engineering
+Author URI: https://amx.ae
+Description: High-performance reactive estate catalog with interactive GIS maps, tailored specifically for Dubai luxury real estate. This style sheet acts as a compatibility wrapper for WordPress theme requirements.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: amx-dubai-listings
+*/
+
+/* Core Custom Variables for AMX integration overrides */
+:root {
+  --amx-primary-color: #041920;      /* Signature deep emerald slate */
+  --amx-secondary-color: #755a24;    /* Sandgold luxury accent */
+  --amx-accent-color: #ffdea7;       /* Soft glowing gold overlay */
+  --amx-background: #fbf9f9;         /* Warm clean off-white canvas */
+  --amx-surface-glass: rgba(4, 25, 32, 0.85); /* Semi-transparent HUD overlay backgrounds */
+  --amx-border-color: #E8E4DE;       /* Fine hairline gold-grey borders */
+  --amx-font-title: 'Playfair Display', serif;
+  --amx-font-body: 'Inter', sans-serif;
+  --amx-border-radius: 20px;         /* Rounded luxury curvature values */
+}
+
+/* Base adaptive classes for target wrapper in Gutenberg block */
+#amx-listings-root, 
+.amx-listings-wordpress-wrapper {
+  font-family: var(--amx-font-body);
+  background-color: var(--amx-background);
+  border-radius: var(--amx-border-radius);
+  border: 1px solid var(--amx-border-color);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 1285px;
+  box-shadow: 0 10px 30px rgba(4, 25, 32, 0.04);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}

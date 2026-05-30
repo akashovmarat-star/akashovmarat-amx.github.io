@@ -1,0 +1,6 @@
+{
+  "name": "AMX Real Estate Dubai",
+  "description": "Dubai's premium boutique real estate agency, specializing in luxury residential acquisitions and strategic investment management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
